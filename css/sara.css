@@ -1,0 +1,502 @@
+.gallery_image a {
+	background-color: transparent;
+}
+
+.gallery_image a img{
+	min-height: 270px;
+	border: 1px solid #cecece;
+}
+
+.gallery_image a:hover .gallery_icon{
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-left: 10px;
+}
+
+.img-responsive{
+	max-width: 100%;
+	margin: auto;
+}
+
+.img-thumbnail{
+	padding: 2px;
+	border: 1px solid #cfcfcf;
+	border-radius: 10px;
+}
+
+.bg-gray{
+	background-color: #fcfcfc;
+}
+
+#owl-demo .item{
+  margin: 3px;
+   text-align: center;
+}
+#owl-demo .item img{
+  float: left;
+   display: inline-block;
+  width: 120px;
+  height: 120px;
+  /*margin: 0 auto 10px;*/
+  border-radius: 100%
+
+}
+
+#new-div{
+  color:black;
+  font-weight: bold; 
+  font-size: 17px;
+  display: block;
+  text-align: left;
+  padding: 40px 0 0 160px;
+
+}
+
+.image-circle{
+	border-radius: 500px;
+}
+
+#testimonial h2{
+	/*text-align: center;*/
+	color: black;
+	margin-bottom: 40px;
+}
+
+#testimonial {
+	background-color: white;
+}
+
+#testimonial p{
+	font-family: cursive;
+	font-style:italic;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*cssnew*/
+.sectionForm {
+  height:500px;
+  width: 600px;
+  background-color:#FFF;
+  box-shadow: 0 0 15px 5px rgba(0,0,0,.5);
+
+}
+
+#Register {
+  padding: 15px 15px 15px 15px;
+  font-family: 'Comfortaa', cursive;
+  position: relative;
+}
+
+.inputSection {
+  /*margin-bottom:12px;*/
+    height: 28px;
+    margin-bottom: 10px;
+}
+
+.inputText {
+  position:absolute;
+  font-family: 'Comfortaa', cursive;
+  left: 90px;
+  outline: none;
+ /* border:none;
+  border-bottom: 1px solid #111;*/
+  color: rgba(0,0,0,.8);
+  font-size:16px;
+   height: 24px;
+    /*margin-bottom: 10px;*/
+}
+
+.acceptSection {
+  margin-bottom:20px;
+}
+
+.formBox {
+  height:20px;
+  width:20px;
+  position:relative;
+  top:0px;
+}
+
+.formHeader {
+  margin-top:-20px;
+}
+
+.formHeading {
+  padding-left: 15px;
+  font-size: 50px;
+  background-image:linear-gradient(120deg, rgba(63,130,215), rgba(128,0,128,.9) 25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Righteous', cursive;
+  margin-bottom:10px;
+  line-height:60px;
+}
+
+.submitButton {
+  background-image:linear-gradient(120deg, purple, rgba(255,0,128,.9));
+  margin:auto;
+  display:flex;
+  width:180px;
+  height:60px;
+  color: #FFF;
+  font-size: 25px;
+  font-family: 'Righteous', cursive;
+  cursor:pointer;
+  border:none;
+  transform: scale(1);
+  justify-content:center;
+}
+
+.submitButton:hover {
+  transform: scale(1.1);
+}
+
+.logoImg {
+  position:absolute;
+          height: 250px;
+    width: 250px;
+    top: 10px;
+    right: 10px;
+  /*height: 250px;
+  width:auto;
+  top: -90px;
+  right: 10px;*/
+}
+
+.optionalSection {
+  height:50px;
+  width:300px;
+  background-color:#FFF;
+  position: relative;
+  left: 320px;
+  bottom:0px;
+}
+
+.changeButton {
+  border:none;
+  outline: none;
+  background-color: transparent;
+  font-family: 'Righteous', cursive;
+  background-image:linear-gradient(120deg, rgba(63,130,215), rgba(128,0,128,.9) 25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor:pointer;
+  position:absolute;
+  right: 8px;
+  top: 12px;
+  font-size: 20px;
+  transform: scale(1);
+}
+
+.changeButton:hover {
+  transform: scale(1.1);
+}
+
+.sizeBack {
+  position:absolute;
+  left: 10px;
+  top: 18px;  
+}
+
+.boxShadow {
+  position:relative;
+  left: 320px;
+  bottom:50px;
+  height:50px;
+  width:300px;
+  box-shadow: 0 0 15px 5px rgba(0,0,0,.5);
+  z-index: -1;
+}
+
+.reSize {
+  width:600px;
+  height:340px;
+}
+
+#LoginForm {
+  display:none;
+  position:relative;
+}
+
+#RegisterForm {
+  /*display:none;*/
+  position:relative;
+}
+
+.selectButton {
+  border:none;
+  outline: none;
+  height:70px;
+  width:200px;
+  margin-right:25px;
+  font-size:30px;
+  color:#FFF;
+  transform: scale(1);
+  cursor:pointer;
+  font-family: 'Righteous', cursive;
+}
+
+#SelectRegister {
+  background-image:linear-gradient(120deg, rgba(63,130,215), rgba(128,0,128,.9) 50%);
+}
+
+#SelectLogin {
+  background-image:linear-gradient(120deg, rgba(128,0,128,.9), rgba(255,0,128) 90%);
+}
+
+.selectButton:hover {
+  transform: scale(1.2);
+}
+
+.backBtn {
+  height:30px;
+  width:30px;
+  font-size:30px;
+  margin-right:10px;
+  background-color:transparent;
+  color:#111;
+  position:absolute;
+  top:0;
+  right:0;
+  z-index:1;
+  outline:none;
+  border:none;
+  transition: all 250ms ease-in-out;
+}
+
+.backBtn:hover {
+  opacity:0.2;
+  cursor:pointer;
+  color:gray;
+  transform: rotate(90deg);
+  margin-right:0;
+  margin-top:5px;
+}
+/*endnew*/
+
+.stickybutton {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  /*padding: 5px 1040px 0;*/
+  right: 10px;
+  top: 5px;
+}
+
+.stickybutton1 {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  /*padding: 5px 1130px 0;*/
+  right: 10px;
+  top: 5px;
+}
+
+.dropbtn {
+  background-color: #C1BBBB;
+  color: black;
+  padding: 5px;
+  font-size: 16px;
+  /*border: none;*/
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-left:27px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #D0CBCB}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #EEE7E7;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/*.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+   border-radius: 2px; 
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}*/
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+.login-btn {
+  text-align:center;
+  margin-top: 50px;
+}
+
+.button {
+  line-height: 55px;
+  padding: 0 30px;
+  background: #004a80;
+  color: #fff;
+  display: inline-block;
+  font-family: roboto;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.button:hover,
+.button:visited {
+  background: #006cba;
+  color: #fff;
+}
+
+.selectButtonArea{
+  text-align: right;
+}
+
+.btn-lg {
+  /*text-align: right;*/
+  float: right;
+  display: inline-block;
+  border-radius: 4px;
+ background-image: linear-gradient(120deg, purple, rgba(255,0,128,.9));
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+}

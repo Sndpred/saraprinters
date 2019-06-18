@@ -1,0 +1,29 @@
+.gallery_image a {
+	background-color: transparent;
+}
+
+.gallery_image a img{
+	min-height: 270px;
+	border: 1px solid #cecece;
+}
+
+.gallery_image a:hover .gallery_icon{
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-left: 10px;
+}
+
+.img-responsive{
+	max-width: 100%;
+	margin: auto;
+}
+
+.img-thumbnail{
+	padding: 2px;
+	border: 1px solid #cfcfcf;
+	border-radius: 10px;
+}
+
+.bg-gray{
+	background-color: #fcfcfc;
+}
