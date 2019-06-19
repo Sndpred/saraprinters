@@ -4,6 +4,8 @@ body {
   padding: 8px;
   /*background-image: linear-gradient(200deg, orange, rgba(255,0,128,.9));*/
   background: #54beb7 !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 * {

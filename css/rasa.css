@@ -1,4 +1,4 @@
-body {
+/*body {
   width:100%;
   height:100vh;
   overflow:hidden;
@@ -7,6 +7,11 @@ body {
   justify-content: center;
   align-items: center;
   cursor:default;
+}*/
+
+body {
+  background: #54beb7 !important;
+  overflow-x: hidden;
 }
 
 .sectionForm {
@@ -20,6 +25,17 @@ body {
   padding: 15px 15px 15px 15px;
   font-family: 'Comfortaa', cursive;
   position: relative;
+  padding-top: 110px;
+}
+
+.strip {
+  height: 100%;
+  width: 200%;
+  position: absolute;
+  left: 50%;
+  background-color: #f4d64b;
+  transform: skewX(-60deg);
+  z-index: -1;
 }
 
 .inputSection {
@@ -44,7 +60,7 @@ body {
 .formBox {
   height:20px;
   width:20px;
-  position:relative;
+  /*position:relative;*/
   top:5px;
 }
 
@@ -60,7 +76,7 @@ body {
   -webkit-text-fill-color: transparent;
   font-family: 'Righteous', cursive;
   margin-bottom:10px;
-  line-height:60px;
+ /* line-height:60px;*/
 }
 
 .submitButton {
@@ -86,25 +102,25 @@ body {
   position:absolute;
   height: 250px;
   width:auto;
-  top: -90px;
+  top: 10px;
   right: 10px;
 }
 
 .optionalSection {
   height:49.5px;
   width:300px;
-  background-color:#FFF;
+  background-color:antiquewhite;
   position: relative;
-  left: 320px;
-  bottom:12px;
+    bottom: -20px;
+    left: 300px;
 }
 
 .optionalSection2{
    height:50px;
   width:300px;
-  background-color:#FFF;
+  background-color:antiquewhite;
   position: relative;
-  left: 320px;
+  left: 300px;
   bottom:0px;
 }
 
@@ -134,7 +150,7 @@ body {
   top: 18px;  
 }
 
-.boxShadow {
+/*.boxShadow {
   position:relative;
   left: 320px;
   bottom:50px;
@@ -142,7 +158,7 @@ body {
   width:300px;
   box-shadow: 0 0 15px 5px rgba(0,0,0,.5);
   z-index: -1;
-}
+}*/
 
 .reSize {
   width:600px;
@@ -152,11 +168,15 @@ body {
 #LoginForm {
   display:none;
   position:relative;
+      margin: 250px;
+    left: 150px;
+    bottom: 50px;
 }
 
 #RegisterForm {
   display:none;
   position:relative;
+  left: 350px;
 }
 
 .selectButton {
